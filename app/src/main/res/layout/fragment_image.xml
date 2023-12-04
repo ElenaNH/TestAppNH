@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black"
+    tools:context=".activity.ImageFragment">
+
+    <!--<TextClock
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </TextClock>-->
+
+    <ImageView
+        android:id="@+id/back"
+        app:srcCompat="@drawable/ic_arrow_back_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground"
+        android:padding="@dimen/common_spacing" />
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        tools:srcCompat="@tools:sample/avatars[92]" />
+
+</FrameLayout>

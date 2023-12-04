@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Флажок checkbox установлен (либо MaterialButton в нажатом состоянии) -->
+    <item android:drawable="@drawable/ic_heart_filled_red" android:state_checked="true" />
+    <!-- Кнопка button с атрибутом checkable=true утоплена (в нажатом состаянии) -->
+    <!--<item android:drawable="@drawable/ic_heart_filled_red" android:state_pressed="true" />-->
+    <!-- Прочие состаяния -->
+    <item android:drawable="@drawable/ic_heart_unfilled" />
+</selector>

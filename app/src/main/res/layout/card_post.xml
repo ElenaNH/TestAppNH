@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/application_background"
+    android:padding="@dimen/common_padding"
+    tools:context=".activity.FeedFragment">
+
+
+    <ImageView
+        android:id="@+id/imgAvatar"
+        android:layout_width="@dimen/postPic"
+        android:layout_height="@dimen/postPic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_foreground2" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/ibtnMenuMoreActions"
+        style="@style/Widget.AppTheme.UnspecifiedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/description_post_menu"
+        android:padding="@dimen/common_padding"
+        app:icon="@drawable/ic_more_vert"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/common_padding"
+        app:layout_constraintBottom_toBottomOf="@id/imgAvatar"
+        app:layout_constraintEnd_toStartOf="@id/ibtnMenuMoreActions"
+        app:layout_constraintStart_toEndOf="@id/imgAvatar"
+        app:layout_constraintTop_toTopOf="@id/imgAvatar">
+
+        <TextView
+            android:id="@+id/messageAuthor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            tools:text="@string/message_author" />
+
+        <TextView
+            android:id="@+id/messagePublished"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="@string/message_published" />
+
+    </LinearLayout>
+
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrierTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="bottom"
+        app:barrierMargin="@dimen/common_margin"
+        app:constraint_referenced_ids="ibtnMenuMoreActions,imgAvatar,linearLayoutTitle" />
+
+    <ImageView
+        android:id="@+id/videoLinkPic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        app:layout_constraintTop_toBottomOf="@id/barrierTop"
+        tools:srcCompat="@mipmap/ic_banner_foreground" />
+    <!--android:layout_width="wrap_content"
+            android:layout_height="wrap_content"-->
+
+    <TextView
+        android:id="@+id/messageContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:ellipsize="none"
+        android:lineSpacingMultiplier="1.2"
+        android:padding="@dimen/common_padding"
+        app:layout_constraintTop_toBottomOf="@id/videoLinkPic"
+        tools:text="@string/message_content" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrierMiddle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="messageContent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/ibtnLikes"
+        style="@style/Widget.AppTheme.LikeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkable="true"
+        android:contentDescription="@string/description_post_like"
+        android:padding="@dimen/common_padding"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/barrierMiddle"
+        tools:text="10T" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/ibtnShare"
+        style="@style/Widget.AppTheme.UnspecifiedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/description_post_share"
+        android:padding="@dimen/common_padding"
+        app:icon="@drawable/ic_share"
+        app:layout_constraintStart_toEndOf="@id/ibtnLikes"
+        app:layout_constraintTop_toBottomOf="@id/barrierMiddle"
+        tools:text="25" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnViews"
+        style="@style/Widget.AppTheme.UnspecifiedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/common_padding"
+        app:icon="@drawable/ic_eye_of_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/barrierMiddle"
+        tools:text="255" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

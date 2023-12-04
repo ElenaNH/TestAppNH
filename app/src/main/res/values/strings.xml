@@ -1,3 +1,51 @@
 <resources>
-    <string name="app_name">TestAppNH</string>
+    <string name="app_name">NMedia</string>
+    <string name="maintext">NMedia!</string>
+    <string name="message_author">Netology, the University of Internet Professions</string>
+    <string name="message_published">21st of May 18:36</string>
+    <string name="message_content">Hi, this is a new Netology! Once Netology began with intensive courses in online marketing. Then there were courses in design, development, analytics and management. We grow ourselves and help students grow: from beginners to confident professionals. But the most important thing remains with us: we believe that everyone already has the power that makes them want more, aim higher, run faster. Our mission is to help us embark on the path of growth and start a chain of changes &#8594; http://netolo.gy/fyb
+    Hi, this is a new Netology! Once Netology began with intensive courses in online marketing. Then there were courses in design, development, analytics and management. We grow ourselves and help students grow: from beginners to confident professionals. But the most important thing remains with us: we believe that everyone already has the power that makes them want more, aim higher, run faster. Our mission is to help us embark on the path of growth and start a chain of changes &#8594; http://netolo.gy/fyb
+    Hi, this is a new Netology! Once Netology began with intensive courses in online marketing. Then there were courses in design, development, analytics and management. We grow ourselves and help students grow: from beginners to confident professionals. But the most important thing remains with us: we believe that everyone already has the power that makes them want more, aim higher, run faster. Our mission is to help us embark on the path of growth and start a chain of changes &#8594; http://netolo.gy/fyb
+    </string>
+
+    <string name="text_count_likes" translatable="false">10</string>
+    <string name="text_count_shared" translatable="false">5</string>
+    <string name="text_count_views" translatable="false">5</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_remove">Remove</string>
+    <string name="post_text">Post Text</string>
+
+    <string name="description_post_author_avatar">Post author avatar</string>
+    <string name="description_post_menu">Post menu</string>
+    <string name="description_post_like">Like</string>
+    <string name="description_post_share">Share</string>
+    <string name="description_post_save">Save</string>
+    <string name="description_post_clear">Clear</string>
+    <string name="error_empty_content">Content can\'t be empty</string>
+    <string name="chooser_share_post">Share...</string>
+    <string name="add_post">Add post</string>
+    <string name="new_posts">View new posts</string>
+    <string name="retry_loading">Retry</string>
+    <string name="empty_posts">There are no posts.\nIf you create a new post, it will appear here</string>
+    <string name="error_loading">Something went wrong. Try again later</string>
+    <string name="error_attaching">Attachment not found!</string>
+
+    <!-- Notifications -->
+    <string name="google_play_unavailable">Google Api Unavailable</string>
+    <string name="notification_user_liked">User %1$s liked %2$s\'s post</string>
+    <string name="channel_remote_name">Server notifications</string>
+    <string name="channel_remote_description">Notifications from remote server</string>
+    <string name="notification_new_post">%1$s published new post</string>
+    <string name="error_post_saving">The post will be sent to server by the next connection</string>
+    <string name="error_post_like_change">Like or dislike error!</string>
+    <string name="error_post_deletion">The post will be removed from server by the next connection</string>
+    <string name="succeed_post_saving">Post saved</string>
+    <string name="succeed_post_like_change">Like status changed</string>
+    <string name="succeed_post_deletion">Post deleted</string>
+
+
+    <string name="save">Save</string>
+    <string name="remove">Remove</string>
+
+
 </resources>

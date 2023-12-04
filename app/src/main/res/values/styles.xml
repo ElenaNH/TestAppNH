@@ -1,0 +1,22 @@
+<resources>
+
+<!--    <style name="Widget.AppTheme.LikeCheckBox" parent="Widget.MaterialComponents.CompoundButton.CheckBox">
+        <item name="buttonTint">@color/ibtn_likes_checkbox_tint</item>
+    </style>-->
+
+    <style name="Widget.AppTheme.LikeButton" parent="Widget.MaterialComponents.Button.TextButton.Icon">
+        <item name="icon">@drawable/ic_like</item>
+        <item name="iconTint">@color/ibtn_likes_checkbox_tint</item>
+        <item name="android:minWidth">0dp</item> <!-- Переопределение атрибута родительского стиля -->
+        <item name="android:minHeight">@dimen/icon_button_min_size</item>
+
+    </style>
+
+    <style name="Widget.AppTheme.UnspecifiedButton" parent="Widget.MaterialComponents.Button.TextButton.Icon">
+        <item name="iconTint">?attr/colorControlNormal</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:minWidth">0dp</item> <!-- Переопределение атрибута родительского стиля -->
+        <item name="android:minHeight">@dimen/icon_button_min_size</item>
+    </style>
+
+</resources>

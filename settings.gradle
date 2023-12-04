@@ -1,8 +1,8 @@
 pluginManagement {
     repositories {
+        gradlePluginPortal()
         google()
         mavenCentral()
-        gradlePluginPortal()
     }
 }
 dependencyResolutionManagement {
@@ -10,8 +10,9 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+
+        maven { url "https://jitpack.io" }  // Добавлено для библиотеки "com.github.dhaval2404:imagepicker:2.1"
     }
 }
-
-rootProject.name = "TestAppNH"
+rootProject.name = "NMedia"
 include ':app'

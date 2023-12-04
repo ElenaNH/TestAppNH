@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">НМедиа</string>
+    <string name="maintext">НМедиа!</string>
+    <string name="message_author">Нетология, Университет интернет-профессий</string>
+    <string name="message_published">21 мая в 18:36</string>
+    <string name="message_content">Привет, это новая Нетология! Когда-то Нетология начиналась с интенсивов по онлайн-маркетингу. Затем появились курсы по дизайну, разработке, аналитике и управлению. Мы растём сами и помогаем расти студентам: от новичков до уверенных профессионалов. Но самое важное остаётся с нами: мы верим, что в каждом уже есть сила, которая заставляет хотеть больше, целиться выше, бежать быстрее. Наша миссия — помочь встать на путь роста и начать цепочку перемен &#8594; http://netolo.gy/fyb </string>
+    <string name="menu_edit">Изменить</string>
+    <string name="menu_remove">Удалить</string>
+    <!--<string name="post_text">Текст сообщения</string>-->
+    <string name="post_text">Текст сообщения</string>
+
+    <string name="description_post_author_avatar">Изображение автора</string>
+    <string name="description_post_menu">Меню сообщения</string>
+    <string name="description_post_like">Лайк</string>
+    <string name="description_post_share">Поделиться</string>
+    <string name="description_post_save">Сохранить</string>
+    <string name="description_post_clear">Очистить</string>
+    <string name="error_empty_content">Сообщение не может быть пустым</string>
+    <string name="chooser_share_post">Поделиться...</string>
+    <string name="add_post">Новое сообщение</string>
+    <string name="new_posts">Смотреть новые</string>
+    <string name="retry_loading">Попробовать снова</string>
+    <string name="empty_posts">Список постов пуст.\nЕсли вы создадите пост, он появится здесь</string>
+    <string name="error_loading">Что-то пошло не так. Попробуйте снова чуть позже</string>
+    <string name="error_attaching">Прикрепляемый файл не найден!</string>
+
+    <!-- Notifications -->
+    <string name="google_play_unavailable">Google Api не доступно</string>
+    <string name="notification_user_liked">Участник %1$s одобрил сообщение участника %2$s</string>
+    <string name="channel_remote_name">Сообщения сервера</string>
+    <string name="channel_remote_description">Сообщения удаленного сервера</string>
+    <string name="notification_new_post">%1$s опубликовал сообщение</string>
+    <string name="error_post_saving">Пост будет отправлен на сервер при следующей синхронизации</string>
+    <string name="error_post_like_change">Ошибка лайка!</string>
+    <string name="error_post_deletion">Пост будет удален с сервера при следующей синхронизации</string>
+    <string name="succeed_post_saving">Сохранен пост</string>
+    <string name="succeed_post_like_change">Лайк изменен</string>
+    <string name="succeed_post_deletion">Пост удален</string>
+
+
+    <string name="save">Сохранить</string>
+    <string name="remove">Удалить</string>
+
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Для чекбокса отслеживаем установку флажка
+    (а также для com.google.android.material.button.MaterialButton) -->
+    <item android:color="#ff0000" android:state_checked="true"/>
+    <!-- Для checkable-кнопки (просто Button) можно отследить состояние нажатости (и удержания) -->
+    <!--<item android:color="#ff0000" android:state_pressed="true"/>-->
+    <item android:color="#777777" />
+    <!--<item android:color="?attr/colorControlNormal" />-->
+</selector>
