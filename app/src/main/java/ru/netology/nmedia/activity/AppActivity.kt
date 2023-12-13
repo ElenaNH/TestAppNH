@@ -33,7 +33,7 @@ class AppActivity : AppCompatActivity(R.layout.activity_app) {
             findNavController(R.id.nav_host_fragment).navigate(
                 R.id.action_feedFragment_to_newPostFragment,
                 Bundle().apply {
-                    textArg = text  // В запускаемый фрагмент передаем полученные извне данные
+                    textArg = text    // В запускаемый фрагмент передаем полученные извне данные
                 }
             )
         }
